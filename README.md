@@ -7,3 +7,5 @@ Then cd to /home/pi/moist and run sudo chmod a+x startup.sh
 Then append /home/pi/moist/start.sh to the /etc/rc.local file before the exit 0 line
 
 Ensure the Pi has a static IP, the website is viewable at 0.0.0.0:8080 (local host)
+
+You will also need to configure NAT on your router from your external IP on a nonstandard port to the raspberry pis IP on port 8080
